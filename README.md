@@ -1,11 +1,85 @@
-# Sample Snack app
+# 📱 Access Jobs
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Aplicativo de vagas de emprego desenvolvido em **React Native** para facilitar a conexão entre empresas e candidatos.  
+O projeto foi pensado para oferecer uma experiência simples, direta e segura no gerenciamento de vagas e currículos.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+---
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 🚀 Tecnologias Utilizadas
+- [React Native](https://reactnative.dev/)  
+- [Expo](https://expo.dev/)  
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)  
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)  
+- [Supabase](https://supabase.com/)  
+- [Node.js](https://nodejs.org/)  
+- [Python](https://www.python.org/)  
+- [VS Code](https://code.visualstudio.com/)  
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+---
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## ⚙️ Funcionalidades
+- 🔐 Login, cadastro e recuperação de senha  
+- 👤 Perfil de usuário  
+- 📄 Cadastro e gerenciamento de vagas  
+- 📝 Visualização de detalhes das vagas  
+- 🗂️ Tela de administrador para controle do sistema  
+- 📑 Geração e leitura de arquivos PDF  
+- 👥 Listagem de pessoas cadastradas  
+
+---
+
+## 📂 Estrutura Principal
+/src
+/screens
+├── SplashScreen.js
+├── TelaLogin.js
+├── TelaRegistro.js
+├── TelaUsuario.js
+├── TelaAdmin.js
+├── TelaLancarVaga.js
+├── TelaPdf.js
+├── TelaEsqueceuSenha.js
+├── PerfilUsuario.js
+├── TelaDetalhesVaga.js
+├── GerenciarVagas.js
+├── TelaAlterarVaga.js
+├── TelaPessoasCadastradas.js
+VagaContext.js
+App.js
+
+yaml
+Copiar código
+
+---
+
+## 🛠️ Como Rodar o Projeto
+
+### Pré-requisitos
+- Node.js instalado  
+- Expo CLI instalada (`npm install -g expo-cli`)  
+- Conta no [Supabase](https://supabase.com/) configurada  
+
+### Passos
+```bash
+# Clone o repositório
+git clone https://github.com/seuusuario/access-jobs.git
+
+# Acesse a pasta
+cd access-jobs
+
+# Instale as dependências
+npm install
+
+# Inicie o app
+npx expo start
+Abra no seu emulador Android/iOS ou no app Expo Go no celular.
+
+
+📌 Roadmap
+ Implementar notificações push
+
+ Melhorar UI/UX das telas
+
+ Criar integração com APIs externas de vagas
+
+ Adicionar suporte a multilínguas
